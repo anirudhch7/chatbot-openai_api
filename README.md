@@ -1,7 +1,9 @@
 **Chatbot using OpenAI's GPT-3.5 and Flask**
+
 This is a simple web application that demonstrates how to create a chatbot using OpenAI's GPT-3.5 model and Flask framework.
 
 *Prerequisites*
+
 Before running the application, make sure you have the following installed:
 
 Python (>= 3.6)
