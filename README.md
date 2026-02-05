@@ -4,7 +4,7 @@ This is a simple web application that demonstrates how to create a chatbot using
 
 **Prerequisites**
 
-Before running the application, make sure you have the following installed:
+Before running the application, make sure you have the below installed:
 
 Python (>= 3.6)
 
