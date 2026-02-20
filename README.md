@@ -1,25 +1,47 @@
-**Chatbot using OpenAI's GPT-3.5 and Flask**
+# Chatbot using OpenAI's GPT-3.5 and Flask
 
-This is a simple web application that demonstrates how to create a chatbot using OpenAI's GPT-3.5 model and Flask framework.
+A simple web application that demonstrates how to build a chatbot using OpenAI's GPT-3.5 model and the Flask framework.
 
-**Prerequisites**
+## Overview
 
-Before running the application, make sure you have the below installed:
+This project provides a browser-based chat interface powered by the OpenAI API. Users can type messages and receive AI-generated responses in real time.
 
-Python (>= 3.6)
+## Prerequisites
 
-Flask (pip install Flask)
+Before running the application, make sure you have the following installed:
 
-OpenAI Python library (pip install openai)
+- **Python** >= 3.6
+- **Flask** – `pip install Flask`
+- **OpenAI Python library** – `pip install openai`
 
-Set up your OpenAI API key:
+## Configuration
 
-Sign up for an account on OpenAI.
+1. [Sign up](https://platform.openai.com/signup) for an OpenAI account and obtain an API key.
+2. Open `main.py` and replace the empty string with your API key:
 
-Replace openai.api_key = "" in app.py with your actual API key.
+```python
+openai.api_key = "your-api-key-here"
+```
 
-Run the application:
+## Usage
 
+Start the Flask development server:
+
+```bash
 python main.py
+```
+
+Then open your browser and navigate to `http://127.0.0.1:5000` to start chatting.
+
+## Project Structure
+
+```
+chatbot-openai_api/
+├── main.py          # Flask application and OpenAI integration
+└── static/
+    ├── index.html   # Chat UI
+    ├── script.js    # Frontend logic
+    └── styles.css   # Styling
+```
 
 
