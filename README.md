@@ -43,5 +43,3 @@ chatbot-openai_api/
     ├── script.js    # Frontend logic
     └── styles.css   # Styling
 ```
-
-
