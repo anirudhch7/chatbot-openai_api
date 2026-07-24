@@ -34,6 +34,7 @@ python main.py
 
 Then open your browser and navigate to `http://127.0.0.1:5000` to start chatting.
 
+
 ## Project Structure
 
 ```
