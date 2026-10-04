@@ -2,6 +2,7 @@
 
 A simple web application that demonstrates how to build a chatbot using OpenAI's GPT-3.5 model and the Flask framework.
 
+
 ## Overview
 
 This project provides a browser-based chat interface powered by the OpenAI API. Users can type messages and receive AI-generated responses in real time.
